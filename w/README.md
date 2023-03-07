@@ -44,9 +44,4 @@ HTML:
 &nbsp;</div>
 <!-- 2 -->
 </div>
-<script type="text/javascript"> 
- function openonclick(client_type){if(client_type=="mail")clientWindow=window.open("","pmw","scrollbars=1,top=0,left=0,resizable=1,width=850,h eight=350") 
- ||alert("Отключите блокировку всплывающих окон!");if(client_type=="options")clientWindow=window.open("/index/11","options","scrollbars=1,top=0,left=0,resizable=1,width=680,height=350")||alert("Отключите блокировку всплывающих окон!") 
- ;if(client_type=="users")clientWindow=window.open("","users","scrollbars=1,top=0,left=0,resizable=1,width=680,height=350")||a lert("Отключите блокировку всплывающих окон!")} 
- </script>
  ```
