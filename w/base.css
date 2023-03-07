@@ -24,3 +24,7 @@ a.textDec{font-weight:777;text-decoration:none;}
  width: 270px; /* Ширина элемента в пикселах */
  margin: auto; /* Выравниваем по центру */
  }
+
+/* Стили кнопки */
+.iksweb{display: inline-block;cursor: pointer; font-size:30px;text-decoration:none;padding:0px 18px; color:#ffffff;background:#0095ff;border-radius:9px;border:6px solid #0095ff;}
+.iksweb:hover{background:#0898ff;color:#cadbfc;border:6px solid #0095ff;transition: all 0s ease;}
