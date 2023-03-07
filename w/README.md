@@ -1,8 +1,9 @@
 # Все виджеты в одном месте
 Блок
 
-"
-<link href="//anmenig.github.io/danat/w/base.css" rel="StyleSheet" type="text/css" /><script type="text/javascript" src="//anmenig.github.io/danat/w/base.js"></script>
+HTML:
+
+ <link href="//anmenig.github.io/danat/w/base.css" rel="StyleSheet" type="text/css" /><script type="text/javascript" src="//anmenig.github.io/danat/w/base.js"></script>
 <div class="container">
 <ul class="tabs">
  <li><a href="#famInfo">1</a></li>
@@ -48,4 +49,4 @@
  ||alert("Отключите блокировку всплывающих окон!");if(client_type=="options")clientWindow=window.open("/index/11","options","scrollbars=1,top=0,left=0,resizable=1,width=680,height=350")||alert("Отключите блокировку всплывающих окон!") 
  ;if(client_type=="users")clientWindow=window.open("","users","scrollbars=1,top=0,left=0,resizable=1,width=680,height=350")||a lert("Отключите блокировку всплывающих окон!")} 
  </script>
- "
+ 
