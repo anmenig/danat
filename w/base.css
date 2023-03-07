@@ -23,5 +23,5 @@ a.textDec{font-weight:777;text-decoration:none;}
 Код от anmenig.github.io
 */
 .block1 { 
-    margin: auto; /* Выравниваем по центру */
+    justify-content: center;
    }
