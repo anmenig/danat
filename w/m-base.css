@@ -41,7 +41,7 @@ a.textDec{font-weight:777;text-decoration:none;}
   font-weight: normal;
   font-family: sans-serif;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 9px;
   background-color: #006BCF;
   background-image: -webkit-linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
   background-image: -moz-linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
@@ -63,7 +63,7 @@ a.textDec{font-weight:777;text-decoration:none;}
 
 .shiny-button strong {
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 17px;
 }
 
 .shiny-button:hover {
