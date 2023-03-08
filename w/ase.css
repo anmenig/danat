@@ -1,0 +1,90 @@
+/*Copyright Famiosoft Corporation
+www.famiosoft.ru
+support@famiosoft.ru
+*/
+
+.container{width:500px;}
+ul.tabs{float:left;list-style:none;border-bottom:1px solid #999;border-left:1px solid #999;width:100%;margin:0;padding:0;}
+ul.tabs li{float:left; border:1px solid #999;border-left:none;background:#e0e0e0;overflow:hidden;position:relative;margin:0 0 -1px;padding:0;}
+ul.tabs li a{text-decoration:none;font-weight:bold;color:#0E005C;display:block;font-size:1.2em;border:1px solid #fff;outline:none;padding:0 16.5px;}
+ul.tabs li a:hover{background:#ccc;}
+html ul.tabs li.active,html ul.tabs li.active a:hover{background:#fff;border-bottom:1px solid #fff;}
+.tab_container{border:1px solid #999;border-top:none;clear:both;float:left;width:500px;background:#fff;}
+.tab_content{font-size:1.1em; padding:3px;}
+.tab_content h2{font-weight:400;padding-bottom:3px;border-bottom:1px dashed #ddd;font-size:1.8em;}
+.minipTdPic{text-decoration:none;background:#E6ECF1;vertical-align:middle;text-align:center;letter-spacing:0;word-spacing:0;border:1px solid #dcdcdc;}
+.minipTdUnColored{text-decoration:none;vertical-align:middle;text-align:center;letter-spacing:0;word-spacing:0;border:1px solid #dcdcdc;}
+a.textDec{font-weight:777;text-decoration:none;}
+
+/*
+Используеться код в проекте с 10.06.2022. Проект HetWidget не являеться создателем кода. Лиш в использование его. Спасиба автору.
+*/
+
+.id1 {
+ width: 470px; /* Ширина элемента в пикселах */
+ margin: auto; /* Выравниваем по центру */
+ }
+
+/* Стили кнопки */
+.shiny-button {
+  display: inline-block;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  background-color: #006BCF;
+  background-image: -webkit-linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
+  background-image: -moz-linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
+  background-image: -o-linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
+  background-image: linear-gradient(top, #006ed4 0%, #197fdf 48%, #006BCF 49%, #006BCF 82%, #0079eb 100%);
+  border-color: hsl(209, 40%, 41%);
+  -webkit-box-shadow: inset 0 0 1px 1px #1c92ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #1c92ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #1c92ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #003669;
+  -moz-text-shadow: 1px 1px 1px #003669;
+  -o-text-shadow: 1px 1px 1px #003669;
+  text-shadow: 1px 1px 1px #003669;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  padding: 12px 30px 12px 30px;
+}
+
+.shiny-button strong {
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.shiny-button:hover {
+  color: #FFFFFF;
+  background-color: #0073de;
+  background-image: -webkit-linear-gradient(top, #0076e3 0%, #2087e6 48%, #0073de 49%, #0073de 82%, #0082fa 100%);
+  background-image: -moz-linear-gradient(top, #0076e3 0%, #2087e6 48%, #0073de 49%, #0073de 82%, #0082fa 100%);
+  background-image: -o-linear-gradient(top, #0076e3 0%, #2087e6 48%, #0073de 49%, #0073de 82%, #0082fa 100%);
+  background-image: linear-gradient(top, #0076e3 0%, #2087e6 48%, #0073de 49%, #0073de 82%, #0082fa 100%);
+  border-color: hsl(209, 41%, 44%);
+  -webkit-box-shadow: inset 0 0 1px 1px #2697ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #2697ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #2697ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #003e78;
+  -moz-text-shadow: 1px 1px 1px #003e78;
+  -o-text-shadow: 1px 1px 1px #003e78;
+  text-shadow: 1px 1px 1px #003e78;
+}
+
+.shiny-button:active {
+  color: #FFFFFF;
+  background-color: #0063c0;
+  background-image: -webkit-linear-gradient(top, #005eb6 0%, #006BCF 100%);
+  background-image: -moz-linear-gradient(top, #005eb6 0%, #006BCF 100%);
+  background-image: -o-linear-gradient(top, #005eb6 0%, #006BCF 100%);
+  background-image: linear-gradient(top, #005eb6 0%, #006BCF 100%);
+  padding: 13px 30px 11px 30px;
+}
