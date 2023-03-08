@@ -23,6 +23,10 @@ a.textDec{font-weight:777;text-decoration:none;}
 .id1 {
  width: 270px; /* Ширина элемента в пикселах */
  margin: auto; /* Выравниваем по центру */
+ 
+ .id2 {
+ width: 300px; /* Ширина элемента в пикселах */
+ margin: auto; /* Выравниваем по центру */
  }
 
 /* Стили кнопки */
